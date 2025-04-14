@@ -22,7 +22,7 @@ const fsm = require('fs'); if (fsm.existsSync('config.env')) require('dotenv').c
 */
 
 SESSION_ID: process.env.SESSION_ID || "MONEY-HEIST-MD-zcFxiTQQ#4uHtCItvyakWaD0VX6FSOPUQ5sDiYf5vyVBOLLxyVyI-DILALK", 
-MONGODB: process.env.MONGODB || "",
+MONGODB: process.env.MONGODB || "mongodb+srv://lilwymn:<db_password>@cluster0.ux4qwer.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 HEROKU_API: process.env.HEROKU_API || "HRKU-ed5c6fb8-14b9-4e21-b652-0df45300750f",
 OWNER_NUMBER:process.env.OWNER_NUMBER || "254706697688",
 
